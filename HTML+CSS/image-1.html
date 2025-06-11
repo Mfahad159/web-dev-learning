@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images+text</title>
+</head>
+<body>
+    <input class="search" type="text" placeholder="Search" class="input"><br>
+    <input type="text" class="search-google" placeholder="Search Google or type a URL">
+  <div class="tweet"><img src="cat.jpg" class="cat-image"><input type="text" class="tweet-input" placeholder="What's happening?"><button class="tweet-button">Tweet</button></div> 
+   <style>
+    .tweet{
+        align-items: center;
+    }
+    .tweet-input{
+        margin-left: 7px;
+        align-items: center;
+        margin-top: 5px;
+        padding: 10px;
+        border: none;
+        vertical-align: top;
+        margin-top: 9.5px;
+        border-radius: 25px;
+        border-width: 1.5px;
+        margin-right: 10px;
+        outline-color: #999;
+    }
+    .tweet-input:focus{
+        border-radius: 25px;
+        border-width: 1.5px;
+        outline-color: #ccc;
+    }
+    .tweet-input::placeholder{
+    font-weight: bold;
+    opacity: 0.8;
+    }
+    .tweet-button{
+        color: white;
+        background-color: rgb(32, 140, 235);
+        font-weight: bold;
+        padding: 5px 13px;
+        border-radius:25px ;
+        vertical-align: top;
+        margin-top: 12px;
+        border-color: transparent;
+    }
+    .tweet-button:hover{
+        opacity: 0.8;
+        cursor: pointer;
+        
+    }
+    .tweet-button:active{
+        opacity: 0.4;
+    }
+       
+        .search {
+            border-radius: 5px;
+            border: 1.5px solid #ccc;
+            padding: 10px;
+            font-size: 14px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+        .search:focus {
+            border-color: #514caf;
+            outline: none;
+            border-width: 1.5px;
+            padding: 10px;
+
+        }
+        .search-google {
+            width: 100%;
+            padding: 12px;
+
+            border-radius: 25px;
+            border: 1.5px solid #ccc;
+            font-size: 14px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            box-shadow: 5px 5px 15px 1px rgba(164, 148, 148, 0.331);
+        }
+        .search-google:focus {
+            border-color: rgb(33, 33, 163);
+            outline: none;
+            padding: 12px;
+        }
+        .search-google::placeholder {
+            color: #999;
+            font-size: 15px;
+        }
+    </style>
+</body>
+</html>

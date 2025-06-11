@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="pic-container">
+            <img src="orango.jpg" alt="" class="pic">
+        </div>
+        <div class="details-container">
+           <p class="title">Oliver</p>
+           <p class="genre"> the cat</p>
+           <p class="famous">Popular</p>
+        </div>
+        <div class="button-container">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+     <div class="main-container">
+        <div class="pic-container">
+            <img src="rex.avif" alt="" class="pic">
+        </div>
+        <div class="details-container">
+           <p class="title">Rex</p>
+           <p class="genre"> the dog</p>
+           <p class="famous">Famous</p>
+        </div>
+        <div class="button-container">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+     <div class="main-container">
+        <div class="pic-container">
+            <img src="deno.avif" alt="" class="pic">
+        </div>
+        <div class="details-container">
+           <p class="title">Deno</p>
+           <p class="genre"> the dog</p>
+           <p class="famous">Famous</p>
+        </div>
+        <div class="button-container">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+</body>
+<style>
+    p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    button{
+          margin-top: 0;
+        margin-bottom: 0;
+    }
+    .main-container{
+         display: flex;
+            border-radius: 10px;
+            width: 350px;
+            height: 70px;
+            margin: 10px;
+            vertical-align: top;
+            border: 1px solid transparent;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+        .pic-container{
+            display: inline-block;
+            width:77px;
+            height: 70px;
+        }
+        .pic{
+            width: 60px;
+            height: 60px;
+            border-radius: 50px;
+            object-fit: cover;
+            object-position: top;
+            margin-top:5px;
+            margin-left: 5px;
+        }
+        .details-container{
+            display: inline-block;
+            width: 100px;
+            height: 70px;
+            font-family:sans-serif ;
+            padding-top: 7px;
+            margin-left: 7px;
+        }   
+        .title{
+            font-weight: bold;
+        }
+        .genre,.famous{
+            margin-top: 3px;
+            opacity: 0.5;
+            font-size: 14px;
+        }
+        .button-container{
+            display: inline-block;
+            width: 90px;
+            height: 70px;
+            margin-left: 90px;
+        }
+        .follow-button{
+            width: 80px;
+            height: 30px;
+            border-radius: 5px;
+            margin-top: 19px;
+            margin-left: 0px;
+            border: none;
+            background-color: white;
+            color: rgb(41, 106, 197);
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+            border: 1px solid rgb(50, 110, 193);
+        }
+        .follow-button:hover{
+            background-color: rgb(50, 110, 193);
+            color: white;
+            cursor: pointer;
+
+        }
+        .follow-button:active{
+           opacity: 0.5;
+        }
+</style>

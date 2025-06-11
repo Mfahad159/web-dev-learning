@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="main-container">
+        <div class="home">
+         Home
+        </div>
+        <div class="search">
+         <input class="search-bar" type="text" placeholder="Search">
+        </div>
+        <div class="download">
+            <button class="download-but">Download</button>
+        </div>
+    </div>
+    <style>
+        .main-container{
+            padding-top: 6px;
+            padding-left: 10px;
+            padding-right:10px ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            display: flex;
+            height: 40px;
+            max-width: 700px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(75, 19, 127, 0.744);
+            background-color: rgba(75, 19, 127, 0.744);
+            justify-content: space-between;
+        }
+        .search{
+        }
+        .search-bar{
+            border: transparent;
+            width: 400px;
+            height: 20px;
+            border-radius: 25px;
+        }
+        .download-but{
+           color: white;
+           margin-top:1px;
+           height: 30px;
+           border: 1px solid white;
+           border-radius: 3px;
+           background-color: transparent;
+           font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+           transition: background-color 0.4s,color 0.4s;
+        }
+        .download-but:hover{
+           cursor: pointer;
+           opacity: 0.8;
+        }
+        .download-but:active{
+            background-color: white;
+            color:rgba(75, 19, 127, 0.744);
+            border: 1px solid rgba(75, 19, 127, 0.744);
+        }
+        .home{
+           color: white;
+           margin-top: 6px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .search{
+            padding-top: 6px;
+        }
+
+    </style>
+</body>
+</html>

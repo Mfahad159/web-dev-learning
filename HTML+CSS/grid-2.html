@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweeter</title>
+</head>
+<body>
+    <div class="top">
+      <img src="rex.avif" alt="" class="cat-image">
+      <input type="text" class="top-input" placeholder="What's happening?">
+      <button class="tweet-button">Tweet</button>
+</div>
+      <div class="pic-container-whole">
+      <div class="pic-container">
+            <img src="rex.avif" alt="" class="image">
+            <p class="title">Rex</p>
+            <p class="mutual-friend">2 mutual friends</p>
+            <button class="add-friend-button">Add a Friend</button>
+
+      </div>
+      <div class="pic-container">
+            <img src="sidni.avif" alt="" class="image">
+            <p class="title">Sidni</p>
+            <p class="mutual-friend">3 mutual friends</p>
+            <button class="add-friend-button">Add a Friend</button>
+
+      </div>
+      <div class="pic-container">
+            <img src="deno.avif" alt="" class="image">
+            <p class="title">Deno</p>
+            <p class="mutual-friend">4 mutual friends</p>
+            <button class="add-friend-button">Add a Friend</button>
+      </div>
+      </div>
+
+    <style>
+      .image{
+        width: 120px;
+        display: block;
+        border-bottom: 1px solid black;
+        height: 150px;
+      }
+       .title{
+        display: block;
+        font-family: sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        margin:3px 0px 0px 4px;
+       }
+       .mutual-friend{
+        display: block;
+        font-family: sans-serif;
+        font-size: 12px;
+        margin:3px 0px 0px 4px;
+        opacity: 0.7;
+       }
+       .add-friend-button{
+        margin:17px 0px 0px 4px;
+        height: 30px;
+        width: 100px;
+        padding: 5px 7px 7px 7px;
+        border: transparent;
+        border-radius: 5px;
+        background-color: rgb(17, 101, 218);
+        color:white;
+
+       }
+       .pic-container-whole{
+        margin-top :10px;
+         margin-left:2px;
+         height: auto;
+       }
+
+       .pic-container{
+        display: inline-block;
+        width: 150px;
+        align-items: center;
+        vertical-align: top;
+        height:250px;
+        margin:6px;
+        border: 1px solid transparent;
+        box-shadow: 0px 0.6px 2px 1px rgba(69, 62, 62, 0.285);
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           .tweet-button {
+            background-color: rgb(41, 118, 211);
+            color: white;
+            border-color: transparent;
+            height: 25px;
+            width: 65px;
+            border-radius: 25px;
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 16px;
+            
+        }
+        button {
+            cursor: pointer;
+            margin-top: 10px;
+            transition: background-color .5s,color .5s, border-color .5s,box-shadow .5s;
+        }
+         .cat-image{
+            border-radius:50% ;
+            width: 40px;
+            height: 40px;
+            object-fit:cover;
+            object-position: right;
+            border: 0.3px transparent;
+            margin-left:5px;
+            margin-top:8px;
+        }
+        .top {
+            display: block;
+            width: 500px;
+            align-items: center;
+            border-radius: 5px;
+            vertical-align: top;
+            border: 1px solid transparent;
+            box-shadow: 0px 0.6px 2px 1px rgba(69, 62, 62, 0.285);
+        }
+        .top-input{
+          vertical-align: top;
+          border: transparent;
+          margin-left: 5px;
+          width: 370px;
+          margin-top: 13px;
+        }
+
+
+
+
+    </style>
+</body>
+</html>

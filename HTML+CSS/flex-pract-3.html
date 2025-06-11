@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-1" style="background-color: lightblue;">
+            Cont 1
+        </div>
+        <div class="flex-2" style="background-color: lightgreen;">
+            Cont 2
+        </div>
+        <div class="flex-3" style="background-color: lightcoral;">
+            Cont 3
+        </div>
+    </div>
+    <style>
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border:1px solid rgba(0, 0, 0, 0.377);
+        }
+        .flex-1,.flex-3,.flex-2{
+            width: 100px;
+            height: 50px;
+            text-align: center;
+                }
+    </style>
+</body>
+</html>

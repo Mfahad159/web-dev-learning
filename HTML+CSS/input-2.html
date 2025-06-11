@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline-block</title>
+</head>
+<body>
+    <input type="text" placeholder="First name" class="first-name">
+    <input type="text" placeholder="Last name" class="last-name">
+    <input type="text" placeholder="Email" class="email">
+    <button class="sign-up">Sign up</button>
+    <style>
+           .first-name, .last-name{
+            display: inline-block;
+            width: 100px;
+            padding: 10px;
+            margin: 8px 2px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            outline: none ;
+        }
+         .first-name,.last-name,.email:focus
+        {
+            border: 1px solid blue
+        }
+        .email{
+            display:block;
+            width:231px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .sign-up{
+            display: inline-block;
+            padding: 10px;
+            background-color: #4234e4cb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            width: 252px;
+            font-weight: bold;
+        }
+        </style>
+</body>
+</html>

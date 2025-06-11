@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="img-container"><img src="images/orango.jpg" alt="" class="pic"></div>
+            <div class="bottom-info">
+                <div class="title"><p>Orango</p></div>
+                <div class="mutual-friend-grid">
+                    <div class="mutual-friend-grid-item">
+                    <img src="download.jpeg" alt="" class="mutual-friend-pic">
+                    </div>
+                    <div class="mutual-friend-grid-item">
+                    <p class="mutual-friend-text">2 mutual friends</p>
+                    </div>
+                </div>
+               <div class="button-container"> <button class="add-friend-button">Add Friend</button></div>
+            </div>
+        </div>
+
+        <div class="grid-item">
+        </div>
+         <div class="grid-item">
+        </div>
+    </div>
+    <style>
+        p{
+margin:0px;
+        }
+        .mutual-friend-grid{
+              display: grid;
+            grid-template-columns: 1fr 3fr;
+            margin-top: 10px;
+
+        }
+        .mutual-friend-grid-item{
+            width: 100%;
+            height: 100%;
+
+        }
+        .mutual-friend-pic{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .bottom-info{
+            margin-left: 10px;
+            margin-top: 15px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            height: 200px;
+        }
+        .grid-item {
+         width: 100%;
+         height: 100%;
+         border: 1px solid #ccc;
+        }
+        .img-container {
+            width: 100%;
+            height: 50%;
+            overflow: hidden;
+        }
+        .pic{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+        .title{
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .mutual-friend-text{
+            font-size: 13px;
+            font-family: sans-serif;
+            opacity: 0.8;
+            margin-top: 7px;
+        }
+        body
+        {
+            padding-bottom:1000px ;
+        }
+    </style>
+</body>
+</html>

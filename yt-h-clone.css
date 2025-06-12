@@ -125,8 +125,31 @@ height: 40px;
     margin-bottom: 8px;
 
 }
-
+.header-notification-div{
+    position: relative;
+}
+.notifications-count{
+    position:absolute;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    border: 0.5px solid white;
+    top: 1px;
+    left:17px;
+    font-size: 12px;
+    padding-left:5px;
+    padding-right: 5px;
+}
  
+
+
+
+
+
+
+
+
+
 .sidebar{
   display: flex;
   position: fixed;
@@ -140,7 +163,7 @@ height: 40px;
   align-items: center; 
 } 
 span{
-font-size: 12px;
+font-size: 10px;
 }
 .s-home,.s-explore,.s-subscriptions
 ,.s-originals,.s-music,.s-library{
@@ -186,8 +209,22 @@ p{
             margin: 10px;
             vertical-align: top;
         }
+
+
+        .vid-timing{
+            color: white;
+            background-color: black;
+            position: absolute;
+            bottom: 10px;
+            right: 13px;
+            border-radius: 2px;
+            font-size: 12px;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
         .image{
             border-radius: 5px;
+            position:relative
         }
         .all-images{
             display: inline-block;
@@ -205,21 +242,22 @@ p{
             display: inline-block;
             vertical-align: top;
             margin-top: 11px;
+
         }
         .description{
             display: block;
-            width: 279px;
+            width: 280px;
         }
         .profile-info{
             display: inline-block;
-            width: 220px;
+            width: 207px;
             font-family: arial,sans-serif;
             color: black;
             margin-top: 16px;
             margin-left: 3px;
         }
             .vid-title{
-                display: block;
+            display: block;
             font-weight:bold ;
             margin-bottom: 7px;
             opacity: 0.93;

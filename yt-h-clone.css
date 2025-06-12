@@ -1,11 +1,19 @@
  .header-container{
     display: flex;
+    position: fixed;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
     align-items: center;
     justify-content: space-between;
     height: 60px;
-    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
  }
- 
+ body{
+    padding-top: 80px;
+    padding-left: 100px;
+ }
  .left-section{
     display: flex;
     align-items: center;
@@ -85,25 +93,25 @@
         width: 245px;
         flex-shrink: 0;
         justify-content: space-between;
+        padding-left: 50px;
         margin-right: 10px;
     }
 
     .upload-icon
 {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     padding:3px;
-    margin-left: 10px;
 }
 .youtube-apps-icon
 {
-height: 40px;
-    width: 40px;
+height: 35px;
+    width: 35px;
     padding:3px;
 }
 .notifications-icon{
-height: 40px;
-    width: 40px;
+height: 35px;
+    width: 35px;
     padding:3px;
 
 }

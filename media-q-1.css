@@ -1,0 +1,31 @@
+
+
+body{
+    min-height:100vh ;
+    background-color: aquamarine;
+    background-image: radial-gradient(white,aquamarine);
+}
+
+@media screen and (max-width:500px) {
+    
+body{
+    min-height:100vh ;
+    background-color: rgb(255, 195, 127);
+    background-image: radial-gradient(white,rgb(255, 195, 127));
+}
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    top:0;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    flex-grow: 1;
+}
+.footer{
+    bottom: 0;
+}
+

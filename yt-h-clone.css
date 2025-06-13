@@ -13,6 +13,50 @@
     height: 60px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.16);
  }
+ .profile-image-parent{
+    position: relative;
+    display: flex;
+    justify-content: center;
+ }
+ .profile-image-parent:hover{
+    cursor: pointer;
+ }
+  .profile-image-parent .profile-preview-child{
+    position: absolute;
+    display: flex;
+   background-color: white;
+   flex-direction: row;
+   align-items: center;
+    padding: 10px;
+    top: 58px;
+    right: 0px;
+    border-radius: 7px;
+    opacity: 0;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.425);
+     transition: opacity 0.25s;
+
+ }
+  .profile-image-parent:hover .profile-preview-child{
+    opacity: 0.85;
+  }
+ .profile-prev-image{
+    height: 45px;
+    width: 45px;
+    border-radius: 22.5px;
+ }
+ .text-prev-profile{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    padding-left:8px;
+ }
+ .prev-title{
+ font-weight: bold;
+ font-size: 12px;
+ }
+ .prev-subscribers{
+font-size:11px;
+ }
  body{
     padding-top: 80px;
     padding-left: 100px;
@@ -80,7 +124,6 @@
     }
     .search-icon-div{
         position: relative;
-        
     }
     .search-icon-div div{
         position: absolute;
@@ -151,6 +194,11 @@ height: 35px;
 height: 40px;
     width: 40px;
     margin-bottom: 8px;
+
+
+}
+.profile-image:hover{
+    opacity: 0.85;
 
 }
 

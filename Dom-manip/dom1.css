@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 200px;
+
 }
 
 .boxes{
@@ -37,4 +38,7 @@ button:hover{
 button:active{
     transform: scale(0.95);
 opacity: 0.8;
+}
+body{
+    background-image: radial-gradient(circle,white, rgba(115, 116, 105, 0.63));
 }

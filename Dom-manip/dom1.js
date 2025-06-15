@@ -1,9 +1,9 @@
 
 
 function changeit(){
-document.querySelectorAll('.boxes').forEach((element, i) => {
-    element.style.backgroundColor = getRandomColor();
-    element.style.color = getRandomColor();
+document.querySelectorAll('.boxes').forEach((element) => {
+    element.style.transition = 'backgroundImage 0.5s';
+    element.style.backgroundImage = `radial-gradient(white, ${getRandomColor()})`;
 });
 }
 
@@ -16,5 +16,6 @@ function getRandomColor() {
   for (let i = 0; i < 6; i++) {
     color += letters[Math.floor(Math.random() * 16)];
   }
+  
   return color;
 }

@@ -45,14 +45,14 @@ addTaskBtn.addEventListener('click', () => {
         alert("Please enter both title and description.");
     }
 });
-
-// Optional: remove functionality
+// Remove item on "Remove" button click
 mainContainer.addEventListener('click', (e) => {
     if (e.target.classList.contains('remove-button')) {
         e.target.closest('.item').remove();
     }
 });
 
+// Clear input fields
 function clearInputs() {
     titleInput.value = '';
     descInput.value = '';

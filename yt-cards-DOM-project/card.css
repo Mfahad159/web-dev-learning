@@ -66,3 +66,23 @@ body {
     margin: 7px 0;
     opacity: 0.8;
 }
+.add-button {
+    background-color: #371392d8;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    width: 150px;
+    transition: transform 0.3s, background-color 5s;
+}
+.add-button:hover {
+    transform: scale(0.98);
+    opacity: 0.8;
+    cursor: pointer;
+}
+.add-button:active{
+    background-color: #ff0000d8;
+    transform: scale(1);
+}

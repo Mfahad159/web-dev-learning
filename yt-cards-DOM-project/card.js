@@ -1,6 +1,6 @@
  const mainContainer = document.querySelector('.main-container');
 
-    // Create new .item element
+    // Create new .card element
     const newItem = document.createElement('div');
     newItem.className = 'card';
     newItem.innerHTML = `
@@ -19,6 +19,6 @@
         </div>
     `;
 
-    // Insert before the first .item (i.e., at the top)
+    // Insert before the first .card (i.e., at the top)
     const firstItem = mainContainer.querySelector('.card');
     mainContainer.insertBefore(newItem, firstItem);

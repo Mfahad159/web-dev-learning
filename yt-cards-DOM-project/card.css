@@ -1,6 +1,7 @@
-body{
+body {
     background-color: #010317;
 }
+
 .main-container {
     display: flex;
     background-color: #040404d0;
@@ -11,25 +12,29 @@ body{
     margin: 16px auto;
     max-width: 700px;
 }
-.card{
-    color:white;
+
+.card {
+    color: white;
     display: flex;
     flex-direction: row;
     border-bottom: 1px solid #eee;
     height: 100px;
-    margin:8px;
+    margin: 8px;
 }
+
 .left-section {
     position: relative;
     flex: 1;
     max-width: 120px;
 }
+
 .left-section img {
     width: 100%;
     border-radius: 8px;
     height: auto;
 }
-.duration{
+
+.duration {
     position: absolute;
     display: inline-block;
     bottom: 35px;
@@ -40,10 +45,11 @@ body{
     border-radius: 4px;
     font-size: 0.8em;
 }
+
 .right-section {
     display: flex;
     flex-direction: column;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     flex: 3;
     padding: 0px 10px;
 }
@@ -54,6 +60,7 @@ body{
     margin-top: 5px;
     color: #fff;
 }
+
 .vid-stats {
     font-size: 0.8em;
     margin: 7px 0;

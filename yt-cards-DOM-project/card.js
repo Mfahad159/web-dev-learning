@@ -1,9 +1,9 @@
- const mainContainer = document.querySelector('.main-container');
+const mainContainer = document.querySelector('.main-container');
 
-    // Create new .card element
-    const newItem = document.createElement('div');
-    newItem.className = 'card';
-    newItem.innerHTML = `
+// Create new .card element
+const newItem = document.createElement('div');
+newItem.className = 'card';
+newItem.innerHTML = `
                   <div class="left-section">
             <img src="images/thumb-1.avif" alt="">
             <div class="duration">5:00</div>
@@ -19,6 +19,6 @@
         </div>
     `;
 
-    // Insert before the first .card (i.e., at the top)
-    const firstItem = mainContainer.querySelector('.card');
-    mainContainer.insertBefore(newItem, firstItem);
+// Insert before the first .card (i.e., at the top)
+const firstItem = mainContainer.querySelector('.card');
+mainContainer.insertBefore(newItem, firstItem);

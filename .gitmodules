@@ -1,0 +1,3 @@
+[submodule "javascript-amazon-projects"]
+	path = javascript-amazon-projects
+	url = https://github.com/SuperSimpleDev/javascript-amazon-project.git
